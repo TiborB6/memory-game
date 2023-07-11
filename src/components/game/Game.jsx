@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import Images from "./IMG_Module";
 import Card from "../card/Card";
+import './game.scss'
 
 export default function Game () {
   // Handles Scores
@@ -39,8 +40,7 @@ export default function Game () {
    // Create a ref to store the last shuffled cards
   const lastShuffledCardsRef = useRef([]);
 
-  // Sets the cards for the round
-  useEffect(() => {
+  const setCards  = () => {
     const shuffledArray = [...Images];
 
       // Fisher-Yates shuffle algorithm
@@ -62,11 +62,14 @@ export default function Game () {
     })
 
     setCard(objArr)
+  }
+  // Sets the cards for the round
+  useEffect(() => {
+    setCards()
   }, [gameState.cards])
 
   // Is called when a card is clicked
   const handleClick = (index) => {
-
     // Ends the game if wrong card is clicked 
     if (card[index].clicked) { 
       handleLose()
@@ -110,7 +113,15 @@ export default function Game () {
       ...prevScore,
       score: 0,
     }));
+
+    setGameState((prevGameState) => ({
+      ...prevGameState,
+      round: 0,
+    }));
+
+    setCards()
   }
+
  
   return (
     <div className="game">
@@ -118,13 +129,14 @@ export default function Game () {
         <h1>Memory Game</h1>
         <div className="score-wrapper">
           <p>Score: {score.score}</p>
-          <p>Highscore: {score.highscore}</p>
+          <p><span>Highscore: </span>{score.highscore}</p>
         </div>
       </div>
-
-      {card.map((item, index) => (
-        <Card onClick={() => handleClick(index)} key={index} img={item.img} clicked={item.clicked}/> 
-      ))}
+      <div className="cards">
+        {card.map((item, index) => (
+          <Card onClick={() => handleClick(index)} key={index} img={item.img} clicked={item.clicked}/> 
+        ))}
+      </div>
     </div>
   )
 }
