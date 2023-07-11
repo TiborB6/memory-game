@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edc8272f.css",
+    "main.js": "/static/js/main.6f83c1d4.js",
+    "static/media/V_AGENTS_587x900_Astra.png": "/static/media/V_AGENTS_587x900_Astra.752017159cab6f7b0d41.png",
+    "static/media/V_AGENTS_587x900_ALL_Raze_2.png": "/static/media/V_AGENTS_587x900_ALL_Raze_2.8fbfc04fca46ed5982cb.png",
+    "static/media/V_AGENTS_587x900_ALL_Sova_2.png": "/static/media/V_AGENTS_587x900_ALL_Sova_2.94c8e81e717006e705fc.png",
+    "static/media/Neon_KeyArt-Web.png": "/static/media/Neon_KeyArt-Web.7a498916f2992537cd3e.png",
+    "static/media/V_AGENTS_587x900_Gekko2.png": "/static/media/V_AGENTS_587x900_Gekko2.b138e4c53077a69fb311.png",
+    "static/media/V_AGENTS_587x900_yoru.png": "/static/media/V_AGENTS_587x900_yoru.fbe81f1e86a84306e4c4.png",
+    "static/media/Deadlock_Artwork.png": "/static/media/Deadlock_Artwork.ded312c9a97cd094035a.png",
+    "static/media/WebUpdate_Chamber_KeyArt.png": "/static/media/WebUpdate_Chamber_KeyArt.c19af1d47a9d6e08c0ea.png",
+    "static/media/Fade_Key_Art_587x900_for_Website.png": "/static/media/Fade_Key_Art_587x900_for_Website.4c553470aa19da9addbe.png",
+    "static/media/Skye_Agent_Valorant.webp": "/static/media/Skye_Agent_Valorant.01a17013debb37c6d744.webp",
+    "static/media/Omen_Agent_Valorant.webp": "/static/media/Omen_Agent_Valorant.3a9fcee6494e7d41b7c1.webp",
+    "static/media/KAYO_Agent_Valorant.webp": "/static/media/KAYO_Agent_Valorant.cb760d9c7cb94a4011b8.webp",
+    "static/media/Breach_Agent_Valorant.webp": "/static/media/Breach_Agent_Valorant.1484d4b422916a9c77b8.webp",
+    "static/media/Phoenix_Agent_Valorant.webp": "/static/media/Phoenix_Agent_Valorant.7da2c585d9fc52d1fd29.webp",
+    "static/media/Killjoy_Agent_Valorant.webp": "/static/media/Killjoy_Agent_Valorant.47a78853807869ca5f47.webp",
+    "static/media/V_AGENTS_587x900_Viper.png": "/static/media/V_AGENTS_587x900_Viper.3e6c897c48633860c53a.png",
+    "static/media/V_AGENTS_587x900_Cypher.png": "/static/media/V_AGENTS_587x900_Cypher.6f5fbd4efa931e1133ae.png",
+    "static/media/V_AGENTS_587x900_sage.png": "/static/media/V_AGENTS_587x900_sage.9932b4c70d0f712d8623.png",
+    "static/media/Harbor_Agent_Valorant.webp": "/static/media/Harbor_Agent_Valorant.6cc580a700e27fc710a6.webp",
+    "static/media/Brimstone_Agent_Valorant.webp": "/static/media/Brimstone_Agent_Valorant.4e5c19414e04a96b850f.webp",
+    "static/media/V_AGENTS_587x900_Reyna.png": "/static/media/V_AGENTS_587x900_Reyna.baa604076600e0cd7278.png",
+    "static/media/Jett_Agent_Valorant.webp": "/static/media/Jett_Agent_Valorant.9dba5c5f20987022c83d.webp",
+    "index.html": "/index.html",
+    "main.edc8272f.css.map": "/static/css/main.edc8272f.css.map",
+    "main.6f83c1d4.js.map": "/static/js/main.6f83c1d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edc8272f.css",
+    "static/js/main.6f83c1d4.js"
+  ]
+}
